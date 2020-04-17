@@ -69,5 +69,6 @@ void printFile(const vector<vector<State>> dd_vector){
 
 int main() {
     printFile(readFile("/Users/michaelharris/udacity-cpp-nano/section-two-foundations/lesson-two-intro-to-cpp/27-formatting-the-printed-board/board.csv"));
+    return 0;
 }
 
