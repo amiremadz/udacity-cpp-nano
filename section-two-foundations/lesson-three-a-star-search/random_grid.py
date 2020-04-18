@@ -40,7 +40,7 @@ def create_random_grid(w: int, h: int):
     df.iloc[0, 0], df.iloc[-1, -1] = 0, 0  # this stops the upper left and lower right corners from being 1
     if not os.path.exists('grids'):
         os.makedirs('grids')
-    df.to_csv(f'grids/grid-{w}-{h}.csv', header=None, index=False)
+    df.to_csv(f'grids/grid.csv', header=None, index=False, line_terminator=',\n')
     # print(df)  # leave for debugging
 
 
@@ -54,4 +54,4 @@ if __name__ == '__main__':
     print('+---------------+')
     create_random_grid(W, H)
     time.sleep(2)
-    print(f'\n\nGrid with dimensions of {W}x{H} has been created in the /grid directory as grid-{W}-{H}.csv\n\n')
+    print(f'\n\nGrid with dimensions of {W}x{H} has been created in the /grid directory as grid.csv\n\n')
