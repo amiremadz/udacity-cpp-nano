@@ -51,7 +51,7 @@ vector<vector<State>> readFile(string path){
 string cellString(State cell){
     switch (cell) {
         case State::k_obstacle:
-            return "⛰️ ";
+            return "⛰ ";
         case State::k_empty:
             return "0 ";
     }
@@ -68,7 +68,7 @@ void printFile(const vector<vector<State>> dd_vector){
 }
 
 int main() {
-    printFile(readFile("/Users/michaelharris/udacity-cpp-nano/section-two-foundations/lesson-two-intro-to-cpp/27-formatting-the-printed-board/board.csv"));
+    printFile(readFile("board.csv"));
     return 0;
 }
 
