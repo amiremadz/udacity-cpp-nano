@@ -16,7 +16,8 @@ using std::ifstream;
 
 enum class State {
     k_empty,
-    k_obstacle
+    k_obstacle,
+    k_closed
 };
 
 vector<State> ParseLine(string line){
@@ -53,6 +54,13 @@ vector<vector<State>> ReadFile(string path){
 // Manhattan Distance function --> |x2 - x1| + |y2 - y1|
 int Heuristic(int start[2], int h_cell[2]) {
     return abs(h_cell[0] - start[0]) + abs(h_cell[1] - start[1]);
+}
+
+void AddToOpen(int x, int y, int g, int h,
+               vector<vector<int>> &openNodes, vector<vector<State>> &grid){
+    // add values to open vector and mark the cell passed in as closed
+    openNodes.push_back(vector<int> {x, y, g, h});
+    grid[x][y] = State::k_closed;
 }
 
 // A* search algorithm
