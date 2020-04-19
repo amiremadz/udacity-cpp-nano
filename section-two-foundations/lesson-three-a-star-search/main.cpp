@@ -49,6 +49,12 @@ vector<vector<State>> ReadFile(string path){
     return grid;
 }
 
+// A* heuristic
+// Manhattan Distance function --> |x2 - x1| + |y2 - y1|
+int Heuristic(int start[2], int h_cell[2]) {
+    return abs(h_cell[0] - start[0]) + abs(h_cell[1] - start[1]);
+}
+
 // A* search algorithm
 vector<vector<State>> Search(vector<vector<State>> grid) {
     cout << "Reading grid of size " << grid.size() << "x" << grid[0].size() << "...\n";
@@ -66,7 +72,7 @@ string CellString(State cell){
     }
 }
 
-void PrintGrid(const vector<vector<State>> grid){
+void PrintGrid(vector<vector<State>> grid){
     for(int i = 0; i < grid.size(); i++){
         for(int j = 0; j < grid[0].size(); j++){
             cout << CellString(grid[i][j]) << ",";
