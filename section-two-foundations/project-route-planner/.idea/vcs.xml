@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$/CppND-Route-Planning-Project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CppND-Route-Planning-Project/thirdparty/P0267_RefImpl" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/CppND-Route-Planning-Project/thirdparty/googletest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/CppND-Route-Planning-Project/thirdparty/pugixml" vcs="Git" />
   </component>
