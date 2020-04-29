@@ -20,3 +20,8 @@ This repo will hold the course work and code from the [Udacity C++ Nanodegree](h
         - [Section 24: Parse Lines from File](https://github.com/MichaelDHarris/udacity-cpp-nano/tree/master/section-two-foundations/lesson-two-intro-to-cpp/24-parse-lines-from-file)
         - [Section 27: Formatting the Printed Board](https://github.com/MichaelDHarris/udacity-cpp-nano/tree/master/section-two-foundations/lesson-two-intro-to-cpp/27-formatting-the-printed-board)
     - [Lesson 3: A* Search](https://github.com/MichaelDHarris/udacity-cpp-nano/tree/master/section-two-foundations/lesson-three-a-star-search)
+    - [Section Project: Route Planner](https://github.com/mharrisb1/udacity-cpp-nano/tree/master/section-two-foundations/project-route-planner)
+3. Object-Oriented Programming
+    - Lesson 1: Welcome
+    - Lesson 2: Intro to OOP
+        - Jupyter Notebooks
