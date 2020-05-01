@@ -9,3 +9,4 @@ This section will introduce many of the concepts for object-oriented programming
 - [04 - Structures](./04-structures.ipynb)
 - [05 - Member Initialization](./05-member-initialization.ipynb)
 - [06 - Access Specifiers](./06-access-specifiers.ipynb)
+- [07 - Classes](./07-classes.ipynb)
