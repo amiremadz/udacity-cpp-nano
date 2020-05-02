@@ -11,3 +11,4 @@ This section will introduce many of the concepts for object-oriented programming
 - [06 - Access Specifiers](./06-access-specifiers.ipynb)
 - [07 - Classes](./07-classes.ipynb)
 - [10 - Constructors](./10-constructors.ipynb)
+- [13 - Initializing Constant Members](./13-initialize-constant-members.ipynb)
