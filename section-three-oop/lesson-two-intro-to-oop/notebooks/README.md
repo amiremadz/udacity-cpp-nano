@@ -12,3 +12,4 @@ This section will introduce many of the concepts for object-oriented programming
 - [07 - Classes](./07-classes.ipynb)
 - [10 - Constructors](./10-constructors.ipynb)
 - [13 - Initializing Constant Members](./13-initialize-constant-members.ipynb)
+- [14 - Encapsulation](./14-encapsulation.ipynb)
