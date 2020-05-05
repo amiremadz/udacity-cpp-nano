@@ -26,3 +26,6 @@ This repo will hold the course work and code from the [Udacity C++ Nanodegree](h
     - [Lesson 2: Intro to OOP](./section-three-oop/lesson-two-intro-to-oop)
         - [Jupyter Notebooks](./section-three-oop/lesson-two-intro-to-oop/notebooks)
         - [Account Class Example](./section-three-oop/lesson-two-intro-to-oop/account-example)
+        - [Mockchain](https://github.com/mharrisb1/mockchain)
+        - [Exercises](./section-three-oop/lesson-two-intro-to-oop/exercises)
+            - [Pyramid](./section-three-oop/lesson-two-intro-to-oop/exercises/pyramid)
