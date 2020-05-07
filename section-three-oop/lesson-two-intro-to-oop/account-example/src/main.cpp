@@ -28,6 +28,8 @@ int main() {
     account1.Send(&account2, 15.00);
     account2.Send(&account3, 15.00);
     account3.Send(&account1, 30.00);
+
+    // Show account information
     AuditAccount(account1);
     cout << "\n";
     AuditAccount(account2);
