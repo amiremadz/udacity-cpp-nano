@@ -31,4 +31,6 @@ This repo will hold the course work and code from the [Udacity C++ Nanodegree](h
             - [Pyramid](./section-three-oop/lesson-two-intro-to-oop/exercises/pyramid)
             - [Students](./section-three-oop/lesson-two-intro-to-oop/exercises/pyramis)
             - [Sphere](./section-three-oop/lesson-two-intro-to-oop/exercises/sphere)
-    - Lesson 3: Advanced OOP
+    - [Lesson 3: Advanced OOP](./section-three-oop/lesson-three-advanced-oop)
+        - [Exercises](./section-three-oop/lesson-three-advanced-oop/exercises)
+            - [Animal Inheritance](./section-three-oop/lesson-three-advanced-oop/exercises/animal)
