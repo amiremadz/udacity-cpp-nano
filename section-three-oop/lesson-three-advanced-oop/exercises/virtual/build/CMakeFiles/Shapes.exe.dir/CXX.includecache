@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/shapes.hpp
+cmath
+-
+
+/Users/michaelharris/udacity-cpp-nano/section-three-oop/lesson-three-advanced-oop/exercises/virtual/src/main.cpp
+shapes.hpp
+/Users/michaelharris/udacity-cpp-nano/section-three-oop/lesson-three-advanced-oop/exercises/virtual/src/shapes.hpp
+stdio.h
+-
+assert.h
+-
+
