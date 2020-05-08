@@ -1,0 +1,3 @@
+/Users/michaelharris/udacity-cpp-nano/section-three-oop/lesson-three-advanced-oop/exercises/virtual/build/CMakeFiles/rebuild_cache.dir
+/Users/michaelharris/udacity-cpp-nano/section-three-oop/lesson-three-advanced-oop/exercises/virtual/build/CMakeFiles/edit_cache.dir
+/Users/michaelharris/udacity-cpp-nano/section-three-oop/lesson-three-advanced-oop/exercises/virtual/build/CMakeFiles/Shapes.exe.dir
