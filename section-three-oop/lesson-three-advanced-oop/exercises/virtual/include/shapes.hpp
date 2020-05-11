@@ -4,20 +4,20 @@
 class Shape {
 public:
     virtual float Area() const = 0;
-    virtual float Parimeter() const = 0;
+    virtual float Perimeter() const = 0;
 };
 
 // rectangle inherits base class shape
-class Rectangle : Shape {
+class Rectangle : public Shape {
 public:
     // constructor
     Rectangle(int w, int h) : width_(w), height_(h) {}
 
     // public members
-    float Area() const {
+    float Area() const override {
         return this->width_ * this->height_;
     }
-    float Parimeter() const {
+    float Perimeter() const override {
         return 2 * (this->width_ + this->height_);
     }
 
@@ -33,10 +33,10 @@ public:
     Circle(int r) : radius_(r) {}
 
     // public members
-    float Area() const {
+    float Area() const override {
         return M_PI * std::pow(this->radius_, 2);
     }
-    float Parimeter() const {
+    float Perimeter() const override {
         return 2 * (M_PI * this->radius_);
     }
 
