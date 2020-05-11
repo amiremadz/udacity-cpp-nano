@@ -34,3 +34,5 @@ This repo will hold the course work and code from the [Udacity C++ Nanodegree](h
     - [Lesson 3: Advanced OOP](./section-three-oop/lesson-three-advanced-oop)
         - [Exercises](./section-three-oop/lesson-three-advanced-oop/exercises)
             - [Animal Inheritance](./section-three-oop/lesson-three-advanced-oop/exercises/animal)
+            - [Friends](./section-three-oop/lesson-three-advanced-oop/exercises/friends)
+            - [Virtual](./section-three-oop/lesson-three-advanced-oop/exercises/virtual)
